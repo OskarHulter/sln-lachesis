@@ -1,0 +1,246 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.1",
+  "deps": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tslib": "^2.3.0",
+    "@nx/devkit": "19.3.1",
+    "@nx/eslint": "19.3.1",
+    "@nx/eslint-plugin": "19.3.1",
+    "@nx/jest": "19.3.1",
+    "@nx/js": "19.3.1",
+    "@nx/next": "19.3.1",
+    "@nx/playwright": "19.3.1",
+    "@nx/workspace": "19.3.1",
+    "@playwright/test": "^1.36.0",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.16.9",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.3.0",
+    "@typescript-eslint/parser": "^7.3.0",
+    "babel-jest": "^29.4.1",
+    "eslint": "~8.57.0",
+    "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-playwright": "^0.15.3",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "nx": "19.3.1",
+    "prettier": "^2.6.2",
+    "sass": "1.62.1",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.4.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "serveStaticTargetName": "serve-static"
+      }
+    },
+    {
+      "name": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "projectFileMap": {
+      "sln-lachesis-e2e": [
+        {
+          "file": "apps/sln-lachesis-e2e/.eslintrc.json",
+          "hash": "632147010597293032"
+        },
+        {
+          "file": "apps/sln-lachesis-e2e/playwright.config.ts",
+          "hash": "7138367812636118372",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/sln-lachesis-e2e/project.json",
+          "hash": "17917886353874988314"
+        },
+        {
+          "file": "apps/sln-lachesis-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/sln-lachesis-e2e/tsconfig.json",
+          "hash": "13413400511057489941"
+        }
+      ],
+      "sln-lachesis": [
+        {
+          "file": "apps/sln-lachesis/.eslintrc.json",
+          "hash": "6220460671248031366"
+        },
+        {
+          "file": "apps/sln-lachesis/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/sln-lachesis/jest.config.ts",
+          "hash": "18401211423774952167"
+        },
+        {
+          "file": "apps/sln-lachesis/next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "apps/sln-lachesis/next.config.js",
+          "hash": "17252635002163063865",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/sln-lachesis/project.json",
+          "hash": "392283540706079852"
+        },
+        {
+          "file": "apps/sln-lachesis/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/sln-lachesis/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/sln-lachesis/specs/index.spec.tsx",
+          "hash": "9752062192437246914",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/sln-lachesis/src/pages/_app.tsx",
+          "hash": "14827962999839353447",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/sln-lachesis/src/pages/index.module.scss",
+          "hash": "4786619528779355986"
+        },
+        {
+          "file": "apps/sln-lachesis/src/pages/index.tsx",
+          "hash": "15046482298823935094"
+        },
+        {
+          "file": "apps/sln-lachesis/src/pages/styles.css",
+          "hash": "2063387531564215811"
+        },
+        {
+          "file": "apps/sln-lachesis/tsconfig.json",
+          "hash": "5276176805385619546"
+        },
+        {
+          "file": "apps/sln-lachesis/tsconfig.spec.json",
+          "hash": "6922413205408300107"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12051862159648514512"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4422400126597322578"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "15235467782651293624"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
+      },
+      {
+        "file": "README.md",
+        "hash": "9891280124019361717"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16101495169721029570"
+      },
+      {
+        "file": "package.json",
+        "hash": "4432444575626439655"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6158713386667941069"
+      }
+    ]
+  }
+}

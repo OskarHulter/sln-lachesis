@@ -1,0 +1,9 @@
+{
+  "name": "sln-lachesis",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/sln-lachesis",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project sln-lachesis --web",
+  "targets": {}
+}
