@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@react-pdf/renderer": "3.4.4",
+    "@tabler/icons": "3.6.0",
     "date-fns": "3.6.0",
     "kbar": "0.1.0-beta.45",
     "next": "14.2.3",
@@ -16,6 +17,7 @@
     "react-content-loader": "7.0.2",
     "react-datepicker": "7.1.0",
     "react-dom": "18.3.1",
+    "react-grid-layout": "1.4.4",
     "react-tag-autocomplete": "7.3.0",
     "react-tooltip": "5.27.0",
     "tldraw": "2.2.1",
