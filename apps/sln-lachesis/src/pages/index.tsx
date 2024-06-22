@@ -1,4 +1,5 @@
 import styles from "./index.module.scss";
+import { BigCalendar } from "@lachesis/ui";
 
 export function Index() {
 	/*
@@ -14,6 +15,7 @@ export function Index() {
 						<span> Hello there, </span>
 						Welcome sln-lachesis 👋
 					</h1>
+					<BigCalendar />
 				</div>
 			</div>
 		</div>

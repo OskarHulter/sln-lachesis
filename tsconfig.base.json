@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@lachesis/ui": [
+        "packages/ui/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
