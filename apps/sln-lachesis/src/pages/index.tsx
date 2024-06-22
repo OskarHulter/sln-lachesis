@@ -1,6 +1,6 @@
 import styles from "./index.module.scss";
-import { BigCalendar } from "@lachesis/ui";
-
+import { BigCalendar, Whiteboard } from "@lachesis/ui";
+import { Tooltip } from "react-tooltip";
 export function Index() {
 	/*
 	 * Replace the elements below with your own.
@@ -15,6 +15,8 @@ export function Index() {
 						<span> Hello there, </span>
 						Welcome sln-lachesis 👋
 					</h1>
+					<Tooltip id="my-tooltip" />
+					<Whiteboard />
 					<BigCalendar />
 				</div>
 			</div>
